@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		817568082CA2C2B500B24577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817568062CA2C2B500B24577 /* LaunchScreen.storyboard */; };
 		81EA82932D9635B200D53D80 /* WWSignInWith3rd_Discord in Frameworks */ = {isa = PBXBuildFile; productRef = 81EA82922D9635B200D53D80 /* WWSignInWith3rd_Discord */; };
 		81F612362D952EA200F90555 /* WWSignInWith3rd_Discord in Frameworks */ = {isa = PBXBuildFile; productRef = 81F612352D952EA200F90555 /* WWSignInWith3rd_Discord */; };
+		81F802BC2D967F3200E8EB10 /* WWSignInWith3rd_Discord in Frameworks */ = {isa = PBXBuildFile; productRef = 81F802BB2D967F3200E8EB10 /* WWSignInWith3rd_Discord */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81F612362D952EA200F90555 /* WWSignInWith3rd_Discord in Frameworks */,
+				81F802BC2D967F3200E8EB10 /* WWSignInWith3rd_Discord in Frameworks */,
 				815421D12D963D5E0055D833 /* WWSignInWith3rd_Discord in Frameworks */,
 				81EA82932D9635B200D53D80 /* WWSignInWith3rd_Discord in Frameworks */,
 			);
@@ -122,6 +124,7 @@
 				81F612352D952EA200F90555 /* WWSignInWith3rd_Discord */,
 				81EA82922D9635B200D53D80 /* WWSignInWith3rd_Discord */,
 				815421D02D963D5E0055D833 /* WWSignInWith3rd_Discord */,
+				81F802BB2D967F3200E8EB10 /* WWSignInWith3rd_Discord */,
 			);
 			productName = Example;
 			productReference = 817567F82CA2C2B400B24577 /* Example.app */;
@@ -152,7 +155,7 @@
 			);
 			mainGroup = 817567EF2CA2C2B400B24577;
 			packageReferences = (
-				815421CF2D963D5E0055D833 /* XCLocalSwiftPackageReference "../../WWSignInWith3rd_Discord" */,
+				81F802BA2D967F3200E8EB10 /* XCRemoteSwiftPackageReference "WWSignInWith3rd_Discord" */,
 			);
 			productRefGroup = 817567F92CA2C2B400B24577 /* Products */;
 			projectDirPath = "";
@@ -416,12 +419,16 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		815421CF2D963D5E0055D833 /* XCLocalSwiftPackageReference "../../WWSignInWith3rd_Discord" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../WWSignInWith3rd_Discord;
+/* Begin XCRemoteSwiftPackageReference section */
+		81F802BA2D967F3200E8EB10 /* XCRemoteSwiftPackageReference "WWSignInWith3rd_Discord" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/William-Weng/WWSignInWith3rd_Discord";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		815421D02D963D5E0055D833 /* WWSignInWith3rd_Discord */ = {
@@ -434,6 +441,11 @@
 		};
 		81F612352D952EA200F90555 /* WWSignInWith3rd_Discord */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = WWSignInWith3rd_Discord;
+		};
+		81F802BB2D967F3200E8EB10 /* WWSignInWith3rd_Discord */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81F802BA2D967F3200E8EB10 /* XCRemoteSwiftPackageReference "WWSignInWith3rd_Discord" */;
 			productName = WWSignInWith3rd_Discord;
 		};
 /* End XCSwiftPackageProductDependency section */

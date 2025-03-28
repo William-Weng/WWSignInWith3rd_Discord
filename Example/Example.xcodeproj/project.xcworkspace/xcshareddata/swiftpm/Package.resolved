@@ -1,5 +1,5 @@
 {
-  "originHash" : "af8bb978d113e9573c980efb5fff904638e412c32e6b57fe3c671e1786e44472",
+  "originHash" : "3597c5ca90436aa0fd05933d1ae5d3e9db0a538a4996c54ef87c504473032e4a",
   "pins" : [
     {
       "identity" : "wwnetworking",
@@ -17,6 +17,15 @@
       "state" : {
         "revision" : "7dbe9e69a4a245aed69412cd918b8fca1dc9b024",
         "version" : "1.1.3"
+      }
+    },
+    {
+      "identity" : "wwsigninwith3rd_discord",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/William-Weng/WWSignInWith3rd_Discord",
+      "state" : {
+        "revision" : "444b94261f438498b74ae8b4e500b08fa466f900",
+        "version" : "1.0.0"
       }
     }
   ],
