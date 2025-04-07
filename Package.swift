@@ -12,7 +12,7 @@ let package = Package(
         .library(name: "WWSignInWith3rd_Discord", targets: ["WWSignInWith3rd_Discord"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/William-Weng/WWSignInWith3rd_Apple", .upToNextMinor(from: "1.1.3")),
+        .package(url: "https://github.com/William-Weng/WWSignInWith3rd_Apple", .upToNextMinor(from: "1.1.4")),
         .package(url: "https://github.com/William-Weng/WWNetworking", .upToNextMinor(from: "1.7.6")),
     ],
     targets: [

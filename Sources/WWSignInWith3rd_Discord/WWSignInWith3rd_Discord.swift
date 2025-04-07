@@ -73,7 +73,7 @@ public extension WWSignInWith3rd.Discord {
     /// 網頁登出
     /// - Parameter completion: (Bool) -> Void)?
     func logoutWithWeb(completion: ((Bool) -> Void)? = nil) {
-        WKWebsiteDataStore.default()._cleanWebsiteData(contains: DiscordURL.key) { completion?($0) }
+        WKWebsiteDataStore.default()._clearWebViewMemory(contains: DiscordURL.key) { completion?($0) }
     }
 }
 
